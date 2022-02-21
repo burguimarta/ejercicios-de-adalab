@@ -1,0 +1,18 @@
+body {
+    background-color: #303030;
+    color: #dfdfdf;
+}
+
+table {
+    border: none;
+}
+
+th{
+    background-color: #d8149d;
+    font-size: 20px;
+}
+
+td {
+    background-color: #56a3eb;
+    padding: 15px;
+}

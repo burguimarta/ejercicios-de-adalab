@@ -1,0 +1,21 @@
+body {
+    background-color: #dfdfdf;
+    color: #303030;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 400px;
+}
+
+aside {
+    border-top: 2px solid #303030;
+    border-bottom: 2px solid #303030;
+}
+
+footer {
+    background-color: #101010;
+    color: #dfdfdf;
+    text-align: center;
+    padding: 10px;
+}
