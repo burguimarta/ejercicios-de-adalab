@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.links {
+    background-color: greenyellow;
+}
+.link_list {
+    display: inline;
+}
+.content {
+    background-color: yellow;
+}
+footer {
+    background-color: #d1d1d1;
+}
+aside {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: 525px) {
+    aside {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .principal {
+        flex-direction: row;
+    }
+    .content {
+        width: 75%;
+    }
+    .links {
+        width: 25%;
+    }
+}
